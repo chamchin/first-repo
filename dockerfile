@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:18.04.6
 RUN addgroup -S user && adduser -S user -G user
 USER user
 # USER root
