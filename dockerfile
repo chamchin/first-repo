@@ -1,4 +1,4 @@
-FROM ubuntu:21.10
+FROM ubuntu:20.04
 RUN addgroup -S user && adduser -S user -G user
 USER user
 # USER root
